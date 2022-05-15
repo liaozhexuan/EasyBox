@@ -29,6 +29,7 @@ def merge(basePath, filename):
 
 
 if __name__ == '__main__':
+    # FilePath can be pasted from Windows Explorer directly, and "/" & "\" can be extracted successfully
     InputFilePath = r"C:\Users\xxx"
     OutputFileName = r"result"
     # filepath = filepath.replace("\\", "/")
